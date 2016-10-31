@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question_1">1. Which of the following memories is an optical memory?</string>
+    <string name="answer_1a">A. Floppy Disk</string>
+    <string name="answer_1b">B. Bubble Memories</string>
+    <string name="answer_1c"></string>
+</resources>
