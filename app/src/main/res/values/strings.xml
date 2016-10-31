@@ -43,10 +43,10 @@
     <string name="answer_8b">B. Fatal Attraction</string>
     <string name="answer_8c">C. Rain Man</string>
     <string name="answer_8d">D. Scent of a Woman</string>
-    <string name="question_9">9. What is your Name ?</string>
-    <string name="question_10">10. What colour is the sky ?</string>
-    <string name="answer_10a">A. Blue</string>
-    <string name="answer_10b">B. Black</string>
-    <string name="answer_10c">C. Red</string>
-    <string name="answer_10d">D. Green</string>
+    <string name="question_9">10. What colour is the sky ?(More than one is Correct)</string>
+    <string name="answer_9a">A. Blue</string>
+    <string name="answer_9b">B. Black</string>
+    <string name="answer_9c">C. Red</string>
+    <string name="answer_9d">D. Green</string>
+    <string name="answer_hint">Enter A, B, C or D</string>
 </resources>
