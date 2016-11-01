@@ -49,4 +49,5 @@
     <string name="answer_9c">C. Red</string>
     <string name="answer_9d">D. Green</string>
     <string name="answer_hint">Enter A, B, C or D</string>
+    <string name="button_text">Submit</string>
 </resources>

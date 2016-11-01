@@ -350,6 +350,7 @@
             </LinearLayout>
 
             <LinearLayout style="@style/GroupStyleB">
+
                 <CheckBox
                     android:id="@+id/answerNineC"
                     style="@style/AnswerStyleB"
@@ -363,12 +364,9 @@
         </LinearLayout>
 
         <Button
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:text="Submit"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ninenthQuestionGroup"/>
+            style="@style/ButtonStyle"
+            android:onClick="quizResult"
+            android:text="@string/button_text" />
     </RelativeLayout>
 
 </ScrollView>
