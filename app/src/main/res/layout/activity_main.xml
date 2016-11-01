@@ -365,6 +365,7 @@
 
         <Button
             style="@style/ButtonStyle"
+            android:layout_below="@id/ninenthQuestionGroup"
             android:onClick="quizResult"
             android:text="@string/button_text" />
     </RelativeLayout>
