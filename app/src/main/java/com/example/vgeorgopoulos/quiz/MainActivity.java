@@ -122,8 +122,8 @@ public class MainActivity extends AppCompatActivity {
      * This method checks if the text entered from the user is correct and adds to the score
      */
     private void sixthQuestion() {
-        String sixthCorrect = sixthEditText.getText().toString().toUpperCase();
-        if (sixthCorrect.equals("C") || sixthCorrect.equals("C.") || sixthCorrect.equals("SCARFACE")) {
+        String sixthCorrect = sixthEditText.getText().toString();
+        if (sixthCorrect.equalsIgnoreCase("C") || sixthCorrect.equalsIgnoreCase("C.") || sixthCorrect.equalsIgnoreCase("SCARFACE")) {
             score += 1;
         }
     }
@@ -132,8 +132,8 @@ public class MainActivity extends AppCompatActivity {
      * This method checks if the text entered from the user is correct and adds to the score
      */
     private void seventhQuestion() {
-        String seventhCorrect = seventhEditText.getText().toString().toUpperCase();
-        if (seventhCorrect.equals("D") || seventhCorrect.equals("D.") || seventhCorrect.equals("SAVING PRIVATE RYAN")) {
+        String seventhCorrect = seventhEditText.getText().toString();
+        if (seventhCorrect.equalsIgnoreCase("D") || seventhCorrect.equalsIgnoreCase("D.") || seventhCorrect.equalsIgnoreCase("SAVING PRIVATE RYAN")) {
             score += 1;
         }
     }
@@ -142,8 +142,8 @@ public class MainActivity extends AppCompatActivity {
      * This method checks if the text entered from the user is correct and adds to the score
      */
     private void eighthQuestion() {
-        String eighthCorrect = eighthEditText.getText().toString().toUpperCase();
-        if (eighthCorrect.equals("C") || eighthCorrect.equals("C.") || eighthCorrect.equals("SCENT OF A WOMAN")) {
+        String eighthCorrect = eighthEditText.getText().toString();
+        if (eighthCorrect.equalsIgnoreCase("C") || eighthCorrect.equalsIgnoreCase("C.") || eighthCorrect.equalsIgnoreCase("SCENT OF A WOMAN")) {
             score += 1;
         }
     }
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
         secondBox.setTextColor(Color.GREEN);
         thirdBox.setTextColor(Color.GREEN);
         fourthBox.setTextColor(Color.RED);
-        if (firstBox.isChecked() && secondBox.isChecked() && thirdBox.isChecked() && fourthBox.isChecked() == false) {
+        if (firstBox.isChecked() && secondBox.isChecked() && thirdBox.isChecked() && !fourthBox.isChecked()) {
             score += 1;
         }
 
